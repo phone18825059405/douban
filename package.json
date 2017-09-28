@@ -1,0 +1,46 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-runtime": "^5.8.38",
+    "better-scroll": "^0.1.15",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "css-loader": "^0.27.1",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "json-loader": "^0.5.4",
+    "morgan": "~1.7.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "serve-favicon": "~2.3.0",
+    "style-loader": "^0.13.2",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-lazyload": "^1.0.0-rc12",
+    "vue-loader": "^7.5.3",
+    "vue-resource": "^0.1.17",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "vue": "^1.0.4",
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.5",
+    "vue-touch": "^1.1.0",
+    "webpack": "^2.2.1"
+  }
+}
